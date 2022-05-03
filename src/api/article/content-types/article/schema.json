@@ -25,6 +25,11 @@
     },
     "article": {
       "type": "richtext"
+    },
+    "slug": {
+      "type": "string",
+      "unique": true,
+      "required": true
     }
   }
 }

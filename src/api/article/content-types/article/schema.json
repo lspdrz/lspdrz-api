@@ -23,7 +23,7 @@
       ],
       "default": "travel"
     },
-    "article": {
+    "content": {
       "type": "richtext"
     },
     "slug": {

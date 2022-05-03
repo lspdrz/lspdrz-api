@@ -18,7 +18,8 @@
     "type": {
       "type": "enumeration",
       "enum": [
-        "travel"
+        "travel",
+        "web_project"
       ],
       "default": "travel"
     },

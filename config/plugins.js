@@ -9,7 +9,9 @@ module.exports = ({ env }) => ({
           api_secret: env('CLOUDINARY_SECRET'),
         },
         actionOptions: {
-          upload: {},
+          uploadStream: {
+              folder: env('MODE') === 'prod' ? 'lspdrz-prod' : 'lspdrz-staging'
+          },
           delete: {},
         },
       },

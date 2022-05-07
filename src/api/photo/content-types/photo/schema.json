@@ -26,12 +26,19 @@
     "description": {
       "type": "string"
     },
+    "dateTaken": {
+      "type": "date",
+      "required": false
+    },
+    "lens": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::lens.lens"
+    },
     "camera": {
-      "type": "enumeration",
-      "enum": [
-        "nikon_fe2"
-      ],
-      "required": true
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::camera.camera"
     }
   }
 }

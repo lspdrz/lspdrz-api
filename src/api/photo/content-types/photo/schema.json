@@ -29,6 +29,16 @@
     "dateTaken": {
       "type": "date",
       "required": false
+    },
+    "camera": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::camera.camera"
+    },
+    "lens": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::lens.lens"
     }
   }
 }

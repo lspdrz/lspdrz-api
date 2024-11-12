@@ -10,12 +10,16 @@
     "strapi": "strapi"
   },
   "dependencies": {
-    "@strapi/plugin-graphql": "4.1.9",
-    "@strapi/plugin-i18n": "4.1.9",
-    "@strapi/plugin-users-permissions": "4.1.9",
+    "@strapi/plugin-graphql": "^4.25.15",
+    "@strapi/plugin-i18n": "^4.25.15",
+    "@strapi/plugin-users-permissions": "^4.25.15",
     "@strapi/provider-upload-cloudinary": "^4.1.9",
-    "@strapi/strapi": "4.1.9",
-    "pg": "^8.7.3"
+    "@strapi/strapi": "^4.25.15",
+    "pg": "^8.7.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^5.3.4",
+    "styled-components": "^5.3.11"
   },
   "author": {
     "name": "A Strapi developer"
@@ -24,7 +28,7 @@
     "uuid": "f549ed13-33ae-45c5-a196-a710d9aa9559"
   },
   "engines": {
-    "node": ">=12.x.x <=16.x.x",
+    "node": ">=18.0.0",
     "npm": ">=6.0.0"
   },
   "license": "MIT",
